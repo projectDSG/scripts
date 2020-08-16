@@ -1,0 +1,16 @@
+apply plugin:'java'
+
+apply plugin: 'application'
+
+mainClassName = 'PostPasteExample'
+
+allprojects {
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    implementation 'com.github.marcoacierno:pastebin-java-api:v0.2.1'
+}
