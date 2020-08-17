@@ -2,7 +2,7 @@ apply plugin:'java'
 
 apply plugin: 'application'
 
-mainClassName = 'PostPasteExample'
+mainClassName = 'GenerateQR'
 
 allprojects {
     repositories {
@@ -13,4 +13,6 @@ allprojects {
 
 dependencies {
     implementation 'com.github.marcoacierno:pastebin-java-api:v0.2.1'
+    implementation 'com.google.zxing:core:3.3.2'
+	implementation 'com.google.zxing:javase:3.3.2'
 }

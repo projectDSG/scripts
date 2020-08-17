@@ -1,2 +1,0 @@
-PostPaste/PostPasteExample.java
- PostPasteExample
